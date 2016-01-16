@@ -1,0 +1,35 @@
+{
+  "name": "webpack-dummy",
+  "version": "0.1.0",
+  "description": "Testing webpack and trying to replace gulp as a build tool.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/simbo/webpack-dummy.git"
+  },
+  "author": "Simon Lepel <simbo@simbo.de> (http://simbo.ninja)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/simbo/webpack-dummy/issues"
+  },
+  "homepage": "https://github.com/simbo/webpack-dummy#readme",
+  "devDependencies": {
+    "autoprefixer": "^6.3.1",
+    "clean-webpack-plugin": "^0.1.6",
+    "css-loader": "^0.23.1",
+    "css-mqpacker": "^4.0.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.0",
+    "jade-html-loader": "0.0.3",
+    "postcss-loader": "^0.8.0",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.0",
+    "stylus-loader": "^1.4.3",
+    "webpack": "^1.12.11"
+  }
+}
