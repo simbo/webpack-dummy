@@ -25,17 +25,20 @@ See [webpack CLI docs](https://webpack.github.io/docs/cli.html).
 ### Accomplished
 
   * bundle raw javascripts
-      - support CommonJS with custom require rootpath
+      - support CommonJS with custom require basedir
 
   * parse stylus 
-      - use custom options
       - use custom plugins by glob
 
   * use postcss with plugins and custom options
+      - use autoprefixer
+      - use mqpacker
 
+  * generate html from a jade template
+
+  * when watching stylus, also watch required/imported files
+  
   * clean generated files before build
-
-  * in production env, minify/uglify assets
 
 
 ### Unsolved or untested
@@ -50,6 +53,14 @@ See [webpack CLI docs](https://webpack.github.io/docs/cli.html).
 
   * when watching, clean before rebuild
 
+  * when watching jade, also watch extended/included files
+
+  * when parsing stylus, use custom options like paths, url and 'include css'
+
+  * when creating html from jade, use custom options like basedir and create custom filters
+
+  * when creating html from jade, use folder/file names from template structure
+
   * release static site to remote server via rsync or similar
 
   * optimize images (png, jpg, svg) with custom options
@@ -57,6 +68,8 @@ See [webpack CLI docs](https://webpack.github.io/docs/cli.html).
   * in pruduction env, do not build css if stylint throws errors on stylus sources
 
   * in pruduction env, do not bundle js if eslint throws errors on javascript sources
+
+  * in production env, minify/uglify assets
 
 
 ## License
