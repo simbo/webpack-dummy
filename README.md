@@ -41,7 +41,7 @@ See [webpack CLI docs](https://webpack.github.io/docs/cli.html).
   * clean generated files before build
 
 
-### Unsolved or untested
+### Unsolved
 
   * simply concatenate javascripts that do not support CommonJS or AMD
 
@@ -63,13 +63,17 @@ See [webpack CLI docs](https://webpack.github.io/docs/cli.html).
 
   * release static site to remote server via rsync or similar
 
+
+### Untested
+
   * optimize images (png, jpg, svg) with custom options
+
+  * in production env, minify/uglify assets
 
   * in pruduction env, do not build css if stylint throws errors on stylus sources
 
   * in pruduction env, do not bundle js if eslint throws errors on javascript sources
 
-  * in production env, minify/uglify assets
 
 
 ## License
